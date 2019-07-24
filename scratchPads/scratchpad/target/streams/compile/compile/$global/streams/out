@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0m/home/denver/scala-course/scratchPads/scratchpad/src/main/scala/example/sortList.scala:7:10: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.immutable.::[A][0m
+[0m[[0m[31merror[0m] [0m[0m required: week4.List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m		case y :: ys => insert(y, isort(ys))[0m
+[0m[[0m[31merror[0m] [0m[0m		       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/denver/scala-course/scratchPads/scratchpad/src/main/scala/example/sortList.scala:12:10: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.immutable.::[A][0m
+[0m[[0m[31merror[0m] [0m[0m required: week4.List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m		case y :: ys => if (y >= x) x :: xs else y :: insert(x, ys)[0m
+[0m[[0m[31merror[0m] [0m[0m		       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/denver/scala-course/scratchPads/scratchpad/src/main/scala/example/sortList.scala:12:33: value :: is not a member of week4.List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m		case y :: ys => if (y >= x) x :: xs else y :: insert(x, ys)[0m
+[0m[[0m[31merror[0m] [0m[0m		                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/denver/scala-course/scratchPads/scratchpad/src/main/scala/example/sortList.scala:12:46: value :: is not a member of week4.List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m		case y :: ys => if (y >= x) x :: xs else y :: insert(x, ys)[0m
+[0m[[0m[31merror[0m] [0m[0m		                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

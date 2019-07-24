@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lenovo/scala-course/scratchPads/playg/src/main/scala/Scratch.scala:60:14: not found: value mm[0m
+[0m[[0m[31merror[0m] [0m[0m		members += mm[0m
+[0m[[0m[31merror[0m] [0m[0m		           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

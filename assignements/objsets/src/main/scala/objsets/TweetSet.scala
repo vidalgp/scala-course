@@ -107,6 +107,9 @@ abstract class TweetSet {
   def foreach(f: Tweet => Unit): Unit
 }
 
+
+
+
 class Empty extends TweetSet {
     def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet = acc
     
@@ -131,12 +134,15 @@ class Empty extends TweetSet {
   def foreach(f: Tweet => Unit): Unit = ()
 }
 
+
+
+
 class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 
     def isEmpty: Boolean = false
 
     def filterAcc(p: Tweet => Boolean, acc: TweetSet): TweetSet =
-      if (p(this.elem)) right.filterAcc(p, left.filterAcc(p, acc.incl(this.elem)))
+      if (p(elem)) right.filterAcc(p, left.filterAcc(p, acc.incl(elem)))
       else right.filterAcc(p, left.filterAcc(p, acc))
     
     def union(that: TweetSet): TweetSet = 
@@ -151,7 +157,7 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 			else mostRTleft
 		else if (!right.isEmpty && mostRTright.retweets > elem.retweets) mostRTright
 		else elem
-}
+  }
 
 	def descendingByRetweet: TweetList =
 		new Cons(mostRetweeted, remove(mostRetweeted).descendingByRetweet)
@@ -183,6 +189,8 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
   }
 }
 
+
+
 trait TweetList {
   def head: Tweet
   def tail: TweetList
@@ -194,15 +202,22 @@ trait TweetList {
     }
 }
 
+
+
 object Nil extends TweetList {
   def head = throw new java.util.NoSuchElementException("head of EmptyList")
   def tail = throw new java.util.NoSuchElementException("tail of EmptyList")
   def isEmpty = true
 }
 
+
+
+
 class Cons(val head: Tweet, val tail: TweetList) extends TweetList {
   def isEmpty = false
 }
+
+
 
 
 object GoogleVsApple {
@@ -220,6 +235,8 @@ object GoogleVsApple {
    */
   lazy val trending: TweetList = (appleTweets union googleTweets).descendingByRetweet
 }
+
+
 
 object Main extends App {
   // Print the trending tweets

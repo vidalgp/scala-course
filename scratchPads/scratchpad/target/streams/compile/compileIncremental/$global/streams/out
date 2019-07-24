@@ -1,0 +1,69 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/lenovo/scala-course/scratchPads/scratchpad/src/main/scala/example/intclass.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/denver/scala-course/scratchPads/scratchpad/src/main/scala/example/sortList.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/denver/scala-course/scratchPads/scratchpad/src/main/scala/example/listclass.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(week4.Nil, week4.Cons, week4.List)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(week4.Nil, week4.Cons, week4.List)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/denver/scala-course/scratchPads/scratchpad/src/main/scala/example/sortList.scala, /home/denver/scala-course/scratchPads/scratchpad/src/main/scala/example/listclass.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/denver/scala-course/scratchPads/scratchpad/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 12295ba2 for Scala compiler version 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/denver/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/denver/scala-course/scratchPads/scratchpad/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.762819411 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from week4.Nil...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(week4.Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(week4.Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(week4.Nil,ModifiedNames(changes = UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(synchronized,[Default]), UsedName(isEmpty,[Default]), UsedName(notify,[Default]), UsedName(head,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName($init$,[Default]), UsedName(wait,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(prepend,[Default]), UsedName($isInstanceOf,[Default]), UsedName(tail,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(Nil,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]))) invalidates 1 classes due to The week4.Nil has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(synchronized,[Default]), UsedName(isEmpty,[Default]), UsedName(notify,[Default]), UsedName(head,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName($init$,[Default]), UsedName(wait,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(prepend,[Default]), UsedName($isInstanceOf,[Default]), UsedName(tail,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(Nil,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(week4.Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from week4.Cons...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(week4.Cons)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(week4.Cons)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(week4.Cons,ModifiedNames(changes = UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(synchronized,[Default]), UsedName(isEmpty,[Default]), UsedName(notify,[Default]), UsedName(head,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName($init$,[Default]), UsedName(wait,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(prepend,[Default]), UsedName($isInstanceOf,[Default]), UsedName(tail,[Default]), UsedName(Cons,[Default]), UsedName(ne,[Default]), UsedName(week4;Cons;init;,[Default]), UsedName(hashCode,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]))) invalidates 1 classes due to The week4.Cons has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(synchronized,[Default]), UsedName(isEmpty,[Default]), UsedName(notify,[Default]), UsedName(head,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName($init$,[Default]), UsedName(wait,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(prepend,[Default]), UsedName($isInstanceOf,[Default]), UsedName(tail,[Default]), UsedName(Cons,[Default]), UsedName(ne,[Default]), UsedName(week4;Cons;init;,[Default]), UsedName(hashCode,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(week4.Cons)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from week4.List...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(week4.List)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(week4.List)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(week4.List,ModifiedNames(changes = UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(synchronized,[Default]), UsedName(isEmpty,[Default]), UsedName(notify,[Default]), UsedName(head,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName($init$,[Default]), UsedName(wait,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(prepend,[Default]), UsedName($isInstanceOf,[Default]), UsedName(apply,[Default]), UsedName(tail,[Default]), UsedName(List,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]))) invalidates 1 classes due to The week4.List has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(synchronized,[Default]), UsedName(isEmpty,[Default]), UsedName(notify,[Default]), UsedName(head,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName($init$,[Default]), UsedName(wait,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(prepend,[Default]), UsedName($isInstanceOf,[Default]), UsedName(apply,[Default]), UsedName(tail,[Default]), UsedName(List,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(week4.List)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from week4.Sort...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(week4.Sort)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(week4.Sort)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(week4.Sort,ModifiedNames(changes = UsedName(toString,[Default]), UsedName(insert,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName(wait,[Default]), UsedName(isort,[Default]), UsedName(clone,[Default]), UsedName(Sort,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName($isInstanceOf,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]))) invalidates 1 classes due to The week4.Sort has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(toString,[Default]), UsedName(insert,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName(wait,[Default]), UsedName(isort,[Default]), UsedName(clone,[Default]), UsedName(Sort,[Default]), UsedName(==,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName($isInstanceOf,[Default]), UsedName(ne,[Default]), UsedName(hashCode,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(week4.Sort)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

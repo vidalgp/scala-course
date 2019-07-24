@@ -1,0 +1,37 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/scratchpad_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/false.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/idealized/scala/false.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/true.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/idealized/scala/true.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/Zero$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/Zero$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/idealized/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/List$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/List$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/Cons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/Cons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/Nil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/Nil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/Boolean.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/idealized/scala/Boolean.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/false$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/idealized/scala/false$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/idealized[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/true$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/idealized/scala/true$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/Succ.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/Succ.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/Zero.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/Zero.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/Nat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/Nat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	week4/Nil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lenovo/scala-course/scratchPads/scratchpad/target/scala-2.13/classes/week4/Nil$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

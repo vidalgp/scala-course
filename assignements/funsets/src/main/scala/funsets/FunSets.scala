@@ -77,9 +77,14 @@ object FunSets {
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
    */
+   // there exists an integer x, such that f(x) == y
+   // Set is defined as a funcion :
+   // its characteristic function receives an int and returns a boolean
+   // map will not transform one element to another element, but will check
+   // the relation of an input x and a function f.
     def map(s: Set, f: Int => Int): Set =
       (y: Int) => exists(s, x => f(x) == y)
-      // (x => exists(s, (y: Int) => f(y) == x))
+
   
   /**
    * Displays the contents of a set

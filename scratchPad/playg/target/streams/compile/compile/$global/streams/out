@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/lenovo/scalaFP/scratchPad/playg/src/main/scala/Polym.scala:35:29: not found: type IndexOutofBoundsException[0m
-[0m[[0m[31merror[0m] [0m[0m		if (xs.isEmpty) throw new IndexOutofBoundsException[0m
-[0m[[0m[31merror[0m] [0m[0m		                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
