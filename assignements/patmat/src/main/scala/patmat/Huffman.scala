@@ -247,7 +247,7 @@ object Huffman {
    */
     def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = {
       val table: CodeTable = convert(tree)
-      text map (ch => codeBits(table)(ch)) reduce (_ ::: _)
+      text map (ch => codeBits(table)(ch)) reduce (_ ::: _) //flatten
     }
   
   }
